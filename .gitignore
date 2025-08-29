@@ -1,0 +1,65 @@
+# ───── Node dependencies ─────
+node_modules/
+
+# ───── Build outputs ─────
+dist/
+build/
+
+# ───── Vite cache ─────
+.vite/
+
+# ───── TypeScript cache ─────
+*.tsbuildinfo
+
+# ───── Logs ─────
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ───── Local env files ─────
+# ───── Firebase local settings ─────
+.firebaserc
+.firebase/
+
+# ───── JetBrains IDE (WebStorm/IntelliJ) ─────
+.idea/
+
+# ───── VSCode settings (optional, if not shared) ─────
+.vscode/
+
+# ───── System junk files ─────
+.DS_Store
+Thumbs.db
+
+# ───── Testing and coverage ─────
+coverage/
+test-output/
+
+# ───── HTTP client requests ─────
+httpRequests/
+
+# ───── IntelliJ HTTP files (if used) ─────
+.idea/httpRequests/
+
+# ───── Other .idea artifacts that can be ignored ─────
+.idea/shelf/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/usage.statistics.xml
+.idea/dataSources/
+.idea/dataSources.local.xml
+
+# ───── Lockfiles (keep the one you use) ─────
+# yarn.lock
+# package-lock.json
+# pnpm-lock.yaml
+
+# ───── Temp folders ─────
+tmp/
+temp/
+.tmp/
+
+# ───── Optional runtime files ─────
+*.log
+*.local

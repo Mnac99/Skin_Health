@@ -1,0 +1,17 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  background-color: rgba(250, 246, 246, 0.884); /* or your chosen color, e.g. #D1E7CE */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.app-container {
+  min-height: 100vh;         /* Ensure full screen height */
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;                   /* Pushes footer to bottom */
+  padding-bottom: 20px;      /* Optional spacing */
+}
